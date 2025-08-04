@@ -1,0 +1,88 @@
+import type { Guitar } from '../types'
+
+export const db : Guitar[] = [
+  {
+      id: 1,
+      name: 'Lukather',
+      image: 'guitarra_01',
+      description: 'Guitarra versátil inspirada en Steve Lukather, ideal para rock y jazz.',
+      price: 299,
+  },
+  {
+      id: 2,
+      name: 'SRV',
+      image: 'guitarra_02',
+      description: 'Modelo estilo vintage con tono potente, homenaje a Stevie Ray Vaughan.',
+      price: 349,
+  },
+  {
+      id: 3,
+      name: 'Borland',
+      image: 'guitarra_03',
+      description: 'Diseño moderno y agresivo, perfecta para metal y estilos alternativos.',
+      price: 329,
+  },
+  {
+      id: 4,
+      name: 'VAI',
+      image: 'guitarra_04',
+      description: 'Inspirada en Steve Vai, con gran sustain y mástil rápido para solos.',
+      price: 299,
+  },
+  {
+      id: 5,
+      name: 'Thompson',
+      image: 'guitarra_05',
+      description: 'Estilo clásico con excelente resonancia, ideal para blues y country.',
+      price: 399,
+  },
+  {
+      id: 6,
+      name: 'White',
+      image: 'guitarra_06',
+      description: 'Modelo elegante en acabado blanco, muy equilibrada en sonido.',
+      price: 329,
+  },
+  {
+      id: 7,
+      name: 'Cobain',
+      image: 'guitarra_07',
+      description: 'Sonido crudo y poderoso, perfecta para grunge y rock alternativo.',
+      price: 349,
+  },
+  {
+      id: 8,
+      name: 'Dale',
+      image: 'guitarra_08',
+      description: 'Guitarra surf rock, con un tono brillante para estilos playeros.',
+      price: 379,
+  },
+  {
+      id: 9,
+      name: 'Krieger',
+      image: 'guitarra_09',
+      description: 'Modelo clásico con tono psicodélico, inspirado en The Doors.',
+      price: 289,
+  },
+  {
+      id: 10,
+      name: 'Campbell',
+      image: 'guitarra_10',
+      description: 'Gran balance tonal, ideal para acompañamiento y estudio.',
+      price: 349,
+  },
+  {
+      id: 11,
+      name: 'Reed',
+      image: 'guitarra_11',
+      description: 'Sonido cálido y versátil, perfecta para jazz y baladas.',
+      price: 399,
+  },
+  {
+      id: 12,
+      name: 'Hazel',
+      image: 'guitarra_12',
+      description: 'Edición especial con acabado natural y sonido nítido.',
+      price: 379,
+  },
+]
